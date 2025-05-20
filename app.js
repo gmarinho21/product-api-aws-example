@@ -6,6 +6,7 @@ const { getSignedUrl } = require('@aws-sdk/s3-request-presigner');
 const cors = require('cors');
 const { v4: uuidv4 } = require('uuid');
 
+require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 3000;
 
