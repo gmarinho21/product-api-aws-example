@@ -4,7 +4,7 @@
     "description": "Cloud-native product API using AWS RDS and S3",
     "main": "app.js",
     "scripts": {
-        "start": "node app.js",
+        "start": "sudo node app.js",
         "dev": "nodemon app.js"
     },
     "dependencies": {
